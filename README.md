@@ -1,2 +1,2 @@
 # Sudoku
- 个人自学android开发的一个初始数独app
+ 个人自学android时开发的一个数独app
