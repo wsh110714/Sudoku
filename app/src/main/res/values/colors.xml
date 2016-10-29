@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="translate">#00000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white.alpha80">#a0ffffff</color>
+    <color name="white.alphaA0">#e0ffffff</color>
+
+    <color name="colorKeyBoard">#FF888888</color>
+
+    <color name="black">#ff000000</color>
+    <color name="gray">#FF888888</color>
+    <color name="lightBackground">#ffd6d7d7</color>
+    <color name="lightGray">#fff2f2f2</color>
+    <color name="darkBackground">#ff5a595b</color>
+
+    <color name="fontColor">#ff009688</color>
+    <color name="darkRed">#ffff0000</color>
+    <color name="darkGreen">#ffcccccc</color>
+    <color name="darkBlue">#eF353271</color>
+    <color name="green">#a3c639</color>
+    <color name="dark_green">#85a71d</color>
+    <color name="yellow">#ff0</color>
+    <color name="pink">#e91e63</color>
+
+    <color name="ir1">#e0ffff</color>
+    <color name="ir2">#ffffe0</color>
+    <color name="ir3">#e6e6fa</color>
+    <color name="ir4">#ffdab9</color>
+    <color name="ir5">#ffc0cb</color>
+</resources>

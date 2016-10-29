@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/translate"
+        android:orientation="vertical">
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/btn1"
+            android:textOn="1"
+            android:textOff="1"/>
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/btn4"
+            android:textOn="4"
+            android:textOff="4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/translate"
+        android:orientation="vertical">
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/btn2"
+            android:textOn="2"
+            android:textOff="2"/>
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/btn5"
+            android:textOn="5"
+            android:textOff="5"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/translate"
+        android:orientation="vertical">
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/btn3"
+            android:textOn="3"
+            android:textOff="3"/>
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/btn6"
+            android:textOn="6"
+            android:textOff="6"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/translate"
+        android:orientation="vertical">
+        <ToggleButton
+            style="@style/keyboardMiniStyle"
+            android:id="@+id/clearBtn"
+            android:textOn="X"
+            android:textOff="X"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            style="@style/keyboardMiniStyle">
+            <ToggleButton
+                android:saveEnabled="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:id="@+id/editBtn"
+                android:background="@drawable/selector_edit"
+                android:textOn=""
+                android:textOff=""/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

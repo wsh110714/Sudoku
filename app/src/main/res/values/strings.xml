@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Sudoku</string>
+    <string name="action_clearColor">清除颜色</string>
+    <string name="action_hint">提示</string>
+    <string name="action_check">检查</string>
+    <string name="action_newGame">新游戏</string>
+    <string name="slide_menu_open">Open Menu</string>
+    <string name="slide_menu_close">Close Menu</string>
+    <string name="settings">设置</string>
+    <string name="action_clock">Clock</string>
+    <string name="action_complete_custom_puzzle">确定</string>
+
+    <string name="game_custom_new">定义新数独</string>
+
+    <string name="sudoku_normal">普通模式</string>
+    <string name="game_nine">标准数独</string>
+    <string name="game_nine_diagonal">对角线数独</string>
+    <string name="game_nine_window">窗口数独</string>
+    <string name="game_nine_percentage">百分比数独</string>
+    <string name="game_eight">八宫</string>
+    <string name="game_eight_diagonal">八宫对角线</string>
+    <string name="game_six">六宫</string>
+    <string name="game_six_diagonal">六宫对角线</string>
+    <string name="game_four">四宫</string>
+
+    <string name="game_irregular">锯齿模式</string>
+    <string name="game_irregular_nine">锯齿九宫</string>
+    <string name="game_irregular_eight">锯齿八宫</string>
+    <string name="game_irregular_seven">锯齿七宫</string>
+    <string name="game_irregular_six">锯齿六宫</string>
+    <string name="game_irregular_five">锯齿五宫</string>
+    <string name="game_irregular_four">锯齿四宫</string>
+
+
+    <string name="pref_music">音效</string>
+    <string name="pref_level_storage_settings">九宫数独难度设置</string>
+    <string name="others">其他</string>
+    <string name="pref_level1">简单</string>
+    <string name="pref_level2">中等</string>
+    <string name="pref_level3">困难</string>
+    <string name="pref_level4">复杂</string>
+
+
+    <string name="text_sudoku_method">"        数独谜题初始会提供不少于17个数字，让玩家填写剩余方格。数独会只有一个解，所以每个方格都只有一个正确数字。数独的主要逻辑解法有基础摒除法，唯一解法，唯余解法，区块摒除法，撑点定位法，余数测试法，唯一候选数法，三链数删减法，矩形顶点法，三链列删减法等。"
+    </string>
+
+    <string name="text_sudoku_explain">"        数独是一种逻辑性的数字填充游戏，要求在每个方格都填充数字，且每行每列和每个小宫都不一样，凑齐1至9所有数字。 "
+        </string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="keyboard9Buttons">
+        <item>@id/clearBtn</item>
+        <item>@id/editBtn</item>
+        <item>@id/btn1</item>
+        <item>@id/btn2</item>
+        <item>@id/btn3</item>
+        <item>@id/btn4</item>
+        <item>@id/btn5</item>
+        <item>@id/btn6</item>
+        <item>@id/btn7</item>
+        <item>@id/btn8</item>
+        <item>@id/btn9</item>
+    </integer-array>
+    
+    
+    <string-array name="pref_sudokuLevel_entries">
+        <item>@string/pref_level1</item>
+        <item>@string/pref_level2</item>
+        <item>@string/pref_level3</item>
+        <item>@string/pref_level4</item>
+    </string-array>
+    
+    <string-array name="pref_sudokuLevel_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string name="pref_sudokuLevel_defaultValue">@string/pref_level2</string>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_clearColor"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/action_clearColor"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_hint"
+        android:icon="@drawable/ic_empty"
+        android:title="@string/action_hint"
+        android:checkable="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_check"
+        android:icon="@drawable/ic_check"
+        android:title="@string/action_check"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_newGame"
+        android:title="@string/action_newGame"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SudokuView">
+        <attr name="size">
+            <enum name="nine" value="9"/>
+            <enum name="eight" value="8"/>
+            <enum name="six" value="6"/>
+            <enum name="four" value="4"/>
+        </attr>
+
+        <attr name = "limitType">
+            <enum name="normal" value="1"/>
+            <enum name="diagonal" value="2"/>
+            <enum name="window" value="3"/>
+            <enum name="percentage" value="4"/>
+        </attr>
+
+        <attr name = "mode">
+            <enum name="normal" value="1"/>
+            <enum name="irregular" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>

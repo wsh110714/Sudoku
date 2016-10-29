@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:icon="@drawable/ic_list_black_24dp"
+        android:key="pref_level_list"
+        android:title="@string/pref_level_storage_settings"
+        android:dialogIcon="@drawable/ic_list_black_24dp"
+        android:dialogTitle="@string/pref_level_storage_settings"
+        android:entries="@array/pref_sudokuLevel_entries"
+        android:entryValues="@array/pref_sudokuLevel_values"
+        android:defaultValue="2"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"/>
+
+    <SwitchPreference
+        android:persistent="true"
+        android:paddingLeft="10dp"
+        android:icon="@drawable/ic_music_video_black_24dp"
+        android:key="pref_music"
+        android:title="@string/pref_music"
+        android:defaultValue="false"/>
+
+</PreferenceScreen>
